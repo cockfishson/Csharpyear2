@@ -1,0 +1,43 @@
+Name of an assembly: laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Is there any public constructors: True
+Public methods:
+Int32 get_Id()
+String get_LastName()
+Void set_LastName(String value)
+String get_FirstName()
+Void set_FirstName(String value)
+String get_Patronymic()
+Void set_Patronymic(String value)
+String get_Address()
+Void set_Address(String value)
+String get_PhoneNumber()
+Void set_PhoneNumber(String value)
+Int32 GetId()
+Int32[] get_Grades()
+Void set_Grades(Int32[] value)
+Int32 MaxGrades()
+Boolean BadGrades()
+Double AverageGrade()
+Double SumGrade()
+Int32 MinGrade()
+Boolean Equals(Object obj)
+Int32 GetHashCode()
+String ToString()
+Type GetType()
+Public properties:
+System.Int32 Id
+System.String LastName
+System.String FirstName
+System.String Patronymic
+System.String Address
+System.String PhoneNumber
+System.Int32[] Grades
+Interfaces:
+Public methods with parameters:
+Void set_LastName(String value)
+Void set_FirstName(String value)
+Void set_Patronymic(String value)
+Void set_Address(String value)
+Void set_PhoneNumber(String value)
+Void set_Grades(Int32[] value)
+Boolean Equals(Object obj)

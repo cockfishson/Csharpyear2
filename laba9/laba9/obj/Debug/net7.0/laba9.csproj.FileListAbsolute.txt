@@ -1,0 +1,14 @@
+D:\Ne_hihanki\sharp\laba9\laba9\bin\Debug\net7.0\laba9.exe
+D:\Ne_hihanki\sharp\laba9\laba9\bin\Debug\net7.0\laba9.deps.json
+D:\Ne_hihanki\sharp\laba9\laba9\bin\Debug\net7.0\laba9.runtimeconfig.json
+D:\Ne_hihanki\sharp\laba9\laba9\bin\Debug\net7.0\laba9.dll
+D:\Ne_hihanki\sharp\laba9\laba9\bin\Debug\net7.0\laba9.pdb
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.AssemblyInfoInputs.cache
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.AssemblyInfo.cs
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.csproj.CoreCompileInputs.cache
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.dll
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\refint\laba9.dll
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.pdb
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\laba9.genruntimeconfig.cache
+D:\Ne_hihanki\sharp\laba9\laba9\obj\Debug\net7.0\ref\laba9.dll

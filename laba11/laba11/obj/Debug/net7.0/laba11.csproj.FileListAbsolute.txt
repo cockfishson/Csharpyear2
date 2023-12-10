@@ -1,0 +1,14 @@
+D:\Ne_hihanki\sharp\laba11\laba11\bin\Debug\net7.0\laba11.exe
+D:\Ne_hihanki\sharp\laba11\laba11\bin\Debug\net7.0\laba11.deps.json
+D:\Ne_hihanki\sharp\laba11\laba11\bin\Debug\net7.0\laba11.runtimeconfig.json
+D:\Ne_hihanki\sharp\laba11\laba11\bin\Debug\net7.0\laba11.dll
+D:\Ne_hihanki\sharp\laba11\laba11\bin\Debug\net7.0\laba11.pdb
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.AssemblyInfoInputs.cache
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.AssemblyInfo.cs
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.csproj.CoreCompileInputs.cache
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.dll
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\refint\laba11.dll
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.pdb
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\laba11.genruntimeconfig.cache
+D:\Ne_hihanki\sharp\laba11\laba11\obj\Debug\net7.0\ref\laba11.dll
