@@ -1,0 +1,17 @@
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\laba13.exe
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\laba13.deps.json
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\laba13.runtimeconfig.json
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\laba13.dll
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\laba13.pdb
+D:\Ne_hihanki\sharp\laba13\laba13\bin\Debug\net8.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.csproj.AssemblyReference.cache
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.AssemblyInfoInputs.cache
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.AssemblyInfo.cs
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.csproj.CoreCompileInputs.cache
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.csproj.CopyComplete
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.dll
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\refint\laba13.dll
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.pdb
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\laba13.genruntimeconfig.cache
+D:\Ne_hihanki\sharp\laba13\laba13\obj\Debug\net8.0\ref\laba13.dll

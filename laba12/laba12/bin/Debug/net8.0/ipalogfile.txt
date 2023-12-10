@@ -1,0 +1,304 @@
+01.12.23 22:31:04 - User Action: Program is working
+01.12.23 22:31:46 - User Action: Program is working
+01.12.23 22:31:46 - Executed method: Disk Scan was executed
+01.12.23 22:33:48 - User Action: Program is working
+01.12.23 22:33:48 - Executed method: Disk Scan was executed
+01.12.23 22:48:05 - User Action: Program is working
+01.12.23 22:48:05 - Executed method: Disk Scan was executed
+01.12.23 22:48:05 - User Action: Program stopped
+01.12.23 22:50:16 - User Action: Program is working
+01.12.23 22:50:16 - Executed method: Disk Scan was executed
+01.12.23 22:50:16 - User Action: Program stopped
+01.12.23 22:50:19 - User action: File ipalogfile.txt was scanned for Info
+01.12.23 22:50:55 - User Action: Program is working
+01.12.23 22:50:55 - Executed method: Disk Scan was executed
+01.12.23 22:50:55 - User Action: Program stopped
+01.12.23 22:51:01 - User action: File ipalogfile.txt was scanned for Info
+01.12.23 23:58:23 - User Action: Program is working
+01.12.23 23:58:23 - Executed method: Disk Scan was executed
+01.12.23 23:58:51 - User action: File ipafileinfo.txt was scanned for Info
+01.12.23 23:58:51 - User action: Directory D:\Ne_hihanki was scanned for Info
+01.12.23 23:58:51 - User Action: File manager is running
+01.12.23 23:58:51 - User action: Drive infor is writen about driveC:\
+01.12.23 23:58:51 - User action: User succesfully copied a file to C:\IPAFiles
+01.12.23 23:58:51 - Error: Error zipping files: Access to the path 'C:\IPAFiles.zip' is denied.
+01.12.23 23:58:51 - Error: Error unzipping files: Could not find file 'C:\IPAFiles.zip'.
+01.12.23 23:58:51 - User Action: Disk Processing run succesfully
+01.12.23 23:58:51 - User Action: Program stopped
+01.12.23 23:59:34 - User Action: Program is working
+01.12.23 23:59:34 - Executed method: Disk Scan was executed
+01.12.23 23:59:49 - User action: File ipalogfile.txt was scanned for Info
+01.12.23 23:59:49 - User action: Directory D:\Ne_hihanki was scanned for Info
+01.12.23 23:59:49 - User Action: File manager is running
+01.12.23 23:59:49 - User action: Drive infor is writen about driveC:\
+01.12.23 23:59:49 - User Action: Program stopped
+02.12.23 00:06:17 - User Action: Program is working
+02.12.23 00:06:17 - Executed method: Disk Scan was executed
+02.12.23 00:06:34 - User action: File ipalofinfo.txt was scanned for Info
+02.12.23 00:06:34 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:06:34 - User Action: File manager is running
+02.12.23 00:06:34 - User action: Drive infor is writen about driveC:\
+02.12.23 00:06:34 - User Action: Program stopped
+02.12.23 00:07:14 - User Action: Program is working
+02.12.23 00:07:15 - Executed method: Disk Scan was executed
+02.12.23 00:07:24 - User action: File ipaloginfo.txt was scanned for Info
+02.12.23 00:07:24 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:07:24 - User Action: File manager is running
+02.12.23 00:07:24 - User action: Drive infor is writen about driveC:\
+02.12.23 00:07:24 - User action: User succesfully copied a file to C:\IPAFiles
+02.12.23 00:07:24 - Error: Error zipping files: Access to the path 'C:\IPAFiles.zip' is denied.
+02.12.23 00:07:24 - Error: Error unzipping files: Could not find file 'C:\IPAFiles.zip'.
+02.12.23 00:07:24 - User Action: Disk Processing run succesfully
+02.12.23 00:07:24 - User Action: Program stopped
+02.12.23 00:09:01 - User Action: Program is working
+02.12.23 00:09:01 - Executed method: Disk Scan was executed
+02.12.23 00:09:19 - User action: File ipaloginfo.txt was scanned for Info
+02.12.23 00:09:19 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:09:19 - User Action: File manager is running
+02.12.23 00:09:19 - User action: Drive infor is writen about driveC:\
+02.12.23 00:09:19 - User action: User succesfully copied a file to C:\IPAFiles
+02.12.23 00:09:19 - Error: Error zipping files: Access to the path 'C:\ZIPIPAFiles.zip' is denied.
+02.12.23 00:09:19 - Error: Error unzipping files: Could not find file 'C:\ZIPIPAFiles.zip'.
+02.12.23 00:09:19 - User Action: Disk Processing run succesfully
+02.12.23 00:09:19 - User Action: Program stopped
+02.12.23 00:18:34 - User Action: Program is working
+02.12.23 00:18:35 - Executed method: Disk Scan was executed
+02.12.23 00:18:47 - User action: File ipaloginfo.txt was scanned for Info
+02.12.23 00:18:47 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:18:47 - User Action: File manager is running
+02.12.23 00:18:47 - User action: Drive infor is writen about driveC:\
+02.12.23 00:18:47 - User action: User succesfully copied a file to C:\IPAFiles
+02.12.23 00:18:47 - User action: User succesfully zipped a file to C:\IPInspect\IPAFiles.zip
+02.12.23 00:18:47 - User action: User succesfully unzipped a file to C:\IPInspect\IPAFiles.zip
+02.12.23 00:18:47 - User Action: Disk Processing run succesfully
+02.12.23 00:18:47 - User Action: Program stopped
+02.12.23 00:21:30 - User Action: Program is working
+02.12.23 00:21:30 - Executed method: Disk Scan was executed
+02.12.23 00:21:41 - User action: File ipalogfiles.txt was scanned for Info
+02.12.23 00:21:41 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:21:41 - User Action: File manager is running
+02.12.23 00:21:41 - User Action: Program stopped
+02.12.23 00:21:58 - User Action: Program is working
+02.12.23 00:21:58 - Executed method: Disk Scan was executed
+02.12.23 00:22:06 - User action: File ipalofinfo.txt was scanned for Info
+02.12.23 00:22:06 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:22:06 - User Action: File manager is running
+02.12.23 00:22:06 - User Action: Program stopped
+02.12.23 00:22:24 - User Action: Program is working
+02.12.23 00:22:24 - Executed method: Disk Scan was executed
+02.12.23 00:22:32 - User action: File ipalofinfo.txt was scanned for Info
+02.12.23 00:22:32 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:22:32 - User Action: File manager is running
+02.12.23 00:22:32 - User action: Drive infor is writen about driveC:\
+02.12.23 00:22:32 - User Action: Program stopped
+02.12.23 00:22:51 - User Action: Program is working
+02.12.23 00:22:51 - Executed method: Disk Scan was executed
+02.12.23 00:22:59 - User action: File ipaloginfo.txt was scanned for Info
+02.12.23 00:22:59 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:22:59 - User Action: File manager is running
+02.12.23 00:22:59 - User action: Drive infor is writen about driveC:\
+02.12.23 00:22:59 - User Action: Program stopped
+02.12.23 00:23:34 - User Action: Program is working
+02.12.23 00:23:34 - Executed method: Disk Scan was executed
+02.12.23 00:23:42 - User action: File ipaloginfo.txt was scanned for Info
+02.12.23 00:23:42 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:23:42 - User Action: File manager is running
+02.12.23 00:23:42 - User action: Drive infor is writen about driveC:\
+02.12.23 00:23:42 - User action: User succesfully copied a file to C:\IPInspect\IPAFiles
+02.12.23 00:23:42 - User Action: Program stopped
+02.12.23 00:26:54 - User Action: Program is working
+02.12.23 00:26:54 - Executed method: Disk Scan was executed
+02.12.23 00:27:16 - User action: File ipalogfile.txt was scanned for Info
+02.12.23 00:27:16 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:27:16 - User Action: File manager is running
+02.12.23 00:27:16 - User action: Drive infor is writen about driveC:\
+02.12.23 00:27:16 - User Action: Program stopped
+02.12.23 00:28:06 - User Action: Program is working
+02.12.23 00:28:06 - Executed method: Disk Scan was executed
+02.12.23 00:28:20 - User action: File ipalogfiles.txt was scanned for Info
+02.12.23 00:28:20 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:28:20 - User Action: File manager is running
+02.12.23 00:28:20 - User action: Drive infor is writen about driveC:\
+02.12.23 00:28:20 - User action: User succesfully copied a file to C:\IPInspect\IPAFiles
+02.12.23 00:28:20 - User Action: Program stopped
+02.12.23 00:30:21 - User Action: Program is working
+02.12.23 00:30:21 - Executed method: Disk Scan was executed
+02.12.23 00:30:23 - User action: File wnef was scanned for Info
+02.12.23 00:30:23 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:30:23 - User Action: File manager is running
+02.12.23 00:30:23 - User action: Drive infor is writen about driveC:\
+02.12.23 00:30:23 - User Action: Program stopped
+02.12.23 00:30:38 - User Action: Program is working
+02.12.23 00:30:38 - Executed method: Disk Scan was executed
+02.12.23 00:30:39 - User action: File lkjrf was scanned for Info
+02.12.23 00:30:39 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:30:39 - User Action: File manager is running
+02.12.23 00:30:39 - User action: Drive infor is writen about driveC:\
+02.12.23 00:30:39 - User action: User successfully copied files to C:\IPInspect\IPAFiles
+02.12.23 00:30:39 - User Action: Program stopped
+02.12.23 00:35:04 - User Action: Program is working
+02.12.23 00:35:04 - Executed method: Disk Scan was executed
+02.12.23 00:35:07 - User action: File hh was scanned for Info
+02.12.23 00:35:07 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:35:07 - User Action: File manager is running
+02.12.23 00:35:07 - User action: Drive infor is writen about driveC:\
+02.12.23 00:35:07 - User Action: Program stopped
+02.12.23 00:35:20 - User Action: Program is working
+02.12.23 00:35:21 - Executed method: Disk Scan was executed
+02.12.23 00:35:22 - User action: File s was scanned for Info
+02.12.23 00:35:22 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:35:22 - User Action: File manager is running
+02.12.23 00:35:22 - User action: Drive infor is writen about driveC:\
+02.12.23 00:35:22 - User action: User successfully copied files to C:\IPInspect\IPAFiles
+02.12.23 00:35:22 - User Action: Program stopped
+02.12.23 00:37:20 - User Action: Program is working
+02.12.23 00:37:20 - Executed method: Disk Scan was executed
+02.12.23 00:37:22 - User action: File k was scanned for Info
+02.12.23 00:37:22 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:37:22 - User Action: File manager is running
+02.12.23 00:37:22 - User action: Drive infor is writen about driveC:\
+02.12.23 00:37:22 - User Action: Program stopped
+02.12.23 00:38:40 - User Action: Program is working
+02.12.23 00:38:40 - Executed method: Disk Scan was executed
+02.12.23 00:38:41 - User action: File j was scanned for Info
+02.12.23 00:38:41 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:38:41 - User Action: File manager is running
+02.12.23 00:38:41 - User action: Drive infor is writen about driveC:\
+02.12.23 00:38:41 - User Action: Program stopped
+02.12.23 00:38:58 - User Action: Program is working
+02.12.23 00:38:58 - Executed method: Disk Scan was executed
+02.12.23 00:38:59 - User action: File l was scanned for Info
+02.12.23 00:38:59 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:38:59 - User Action: File manager is running
+02.12.23 00:38:59 - User action: Drive infor is writen about driveC:\
+02.12.23 00:38:59 - User Action: Program stopped
+02.12.23 00:41:25 - User Action: Program is working
+02.12.23 00:41:25 - Executed method: Disk Scan was executed
+02.12.23 00:41:30 - User action: File k was scanned for Info
+02.12.23 00:41:30 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:41:30 - User Action: File manager is running
+02.12.23 00:41:30 - User action: Drive infor is writen about driveC:\
+02.12.23 00:41:30 - User Action: Program stopped
+02.12.23 00:42:16 - User Action: Program is working
+02.12.23 00:42:16 - Executed method: Disk Scan was executed
+02.12.23 00:42:18 - User action: File k was scanned for Info
+02.12.23 00:42:18 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:42:18 - User Action: File manager is running
+02.12.23 00:42:18 - User action: Drive infor is writen about driveC:\
+02.12.23 00:42:18 - User Action: Program stopped
+02.12.23 00:42:29 - User Action: Program is working
+02.12.23 00:42:29 - Executed method: Disk Scan was executed
+02.12.23 00:42:30 - User action: File l was scanned for Info
+02.12.23 00:42:30 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:42:30 - User Action: File manager is running
+02.12.23 00:42:30 - User action: Drive infor is writen about driveC:\
+02.12.23 00:42:30 - User Action: Program stopped
+02.12.23 00:43:38 - User Action: Program is working
+02.12.23 00:43:38 - Executed method: Disk Scan was executed
+02.12.23 00:43:41 - User action: File l was scanned for Info
+02.12.23 00:43:41 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:43:41 - User Action: File manager is running
+02.12.23 00:43:41 - User action: Drive infor is writen about driveC:\
+02.12.23 00:43:41 - User Action: Program stopped
+02.12.23 00:45:24 - User Action: Program is working
+02.12.23 00:45:24 - Executed method: Disk Scan was executed
+02.12.23 00:45:25 - User action: File k was scanned for Info
+02.12.23 00:45:25 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:45:25 - User Action: File manager is running
+02.12.23 00:45:25 - User action: Drive infor is writen about driveC:\
+02.12.23 00:45:25 - User Action: Program stopped
+02.12.23 00:45:38 - User Action: Program is working
+02.12.23 00:45:38 - Executed method: Disk Scan was executed
+02.12.23 00:45:39 - User action: File l was scanned for Info
+02.12.23 00:45:39 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:45:39 - User Action: File manager is running
+02.12.23 00:45:39 - User action: Drive infor is writen about driveC:\
+02.12.23 00:45:39 - User action: User successfully copied files to C:\IPAInspect\IPAFiles
+02.12.23 00:45:39 - User Action: Program stopped
+02.12.23 00:47:22 - User Action: Program is working
+02.12.23 00:47:22 - Executed method: Disk Scan was executed
+02.12.23 00:47:23 - User action: File l\ was scanned for Info
+02.12.23 00:47:23 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:47:23 - User Action: File manager is running
+02.12.23 00:47:23 - User action: Drive infor is writen about driveC:\
+02.12.23 00:47:23 - User Action: Program stopped
+02.12.23 00:47:35 - User Action: Program is working
+02.12.23 00:47:35 - Executed method: Disk Scan was executed
+02.12.23 00:47:37 - User action: File dl was scanned for Info
+02.12.23 00:47:37 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:47:37 - User Action: File manager is running
+02.12.23 00:47:37 - User action: Drive infor is writen about driveC:\
+02.12.23 00:47:37 - User action: User successfully copied files to C:\IPAInspect\IPAFiles
+02.12.23 00:47:37 - User Action: Program stopped
+02.12.23 00:48:52 - User Action: Program is working
+02.12.23 00:48:52 - Executed method: Disk Scan was executed
+02.12.23 00:48:53 - User action: File n was scanned for Info
+02.12.23 00:48:53 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:48:53 - User Action: File manager is running
+02.12.23 00:48:53 - User action: Drive infor is writen about driveC:\
+02.12.23 00:48:53 - User Action: Program stopped
+02.12.23 00:49:03 - User Action: Program is working
+02.12.23 00:49:03 - Executed method: Disk Scan was executed
+02.12.23 00:49:04 - User action: File k was scanned for Info
+02.12.23 00:49:04 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:49:04 - User Action: File manager is running
+02.12.23 00:49:04 - User action: Drive infor is writen about driveC:\
+02.12.23 00:49:04 - User Action: Program stopped
+02.12.23 00:49:26 - User Action: Program is working
+02.12.23 00:49:26 - Executed method: Disk Scan was executed
+02.12.23 00:49:27 - User action: File l was scanned for Info
+02.12.23 00:49:27 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:49:27 - User Action: File manager is running
+02.12.23 00:49:27 - User action: Drive infor is writen about driveC:\
+02.12.23 00:49:27 - User action: User successfully copied files to C:\IPAInspect\IPAFiles
+02.12.23 00:49:28 - User Action: Program stopped
+02.12.23 00:55:52 - User Action: Program is working
+02.12.23 00:55:52 - Executed method: Disk Scan was executed
+02.12.23 00:55:54 - User action: File k was scanned for Info
+02.12.23 00:55:54 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:55:54 - File Management: Information saved to C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:55:54 - File Management: Copied file to C:\IPAInspect\copied_ipadirinfo.txt
+02.12.23 00:55:54 - File Management: Deleted original file C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:55:54 - File Management: Copied files with extension .txt to C:\IPAFiles
+02.12.23 00:55:54 - File Management: Moved C:\IPAFiles to C:\IPAInspect\MovedFiles
+02.12.23 00:55:54 - File Management: Created archive at C:\IPAInspect\FilesArchive.zip
+02.12.23 00:55:54 - File Management: Extracted archive to C:\IPAInspect\ExtractedFiles
+02.12.23 00:55:54 - User Action: Program stopped
+02.12.23 00:56:26 - User Action: Program is working
+02.12.23 00:56:26 - Executed method: Disk Scan was executed
+02.12.23 00:56:28 - User action: File k was scanned for Info
+02.12.23 00:56:28 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:56:28 - File Management: Information saved to C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:56:28 - File Management: Copied file to C:\IPAInspect\copied_ipadirinfo.txt
+02.12.23 00:56:28 - File Management: Deleted original file C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:56:28 - File Management: Copied files with extension .txt to C:\IPAFiles
+02.12.23 00:56:28 - File Management: Moved C:\IPAFiles to C:\IPAInspect\MovedFiles
+02.12.23 00:56:28 - File Management: Created archive at C:\IPAInspect\FilesArchive.zip
+02.12.23 00:56:28 - File Management: Extracted archive to C:\IPAInspect\ExtractedFiles
+02.12.23 00:56:28 - User Action: Program stopped
+02.12.23 00:58:18 - User Action: Program is working
+02.12.23 00:58:18 - Executed method: Disk Scan was executed
+02.12.23 00:58:21 - User action: File л was scanned for Info
+02.12.23 00:58:21 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:58:21 - File Management: Information saved to C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:58:21 - File Management Error: The file 'C:\IPAInspect\copied_ipadirinfo.txt' already exists.
+02.12.23 00:58:21 - User Action: Program stopped
+02.12.23 00:58:45 - User Action: Program is working
+02.12.23 00:58:45 - Executed method: Disk Scan was executed
+02.12.23 00:58:47 - User action: File д was scanned for Info
+02.12.23 00:58:47 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 00:58:47 - File Management: Information saved to C:\IPAInspect\ipadirinfo.txt
+02.12.23 00:58:47 - File Management Error: The file 'C:\IPAInspect\copied_ipadirinfo.txt' already exists.
+02.12.23 00:58:47 - User Action: Program stopped
+02.12.23 13:18:07 - User Action: Program is working
+02.12.23 13:18:07 - Executed method: Disk Scan was executed
+02.12.23 13:18:14 - User action: File ipalogfile.txt was scanned for Info
+02.12.23 13:18:14 - User action: Directory D:\Ne_hihanki was scanned for Info
+02.12.23 13:18:14 - File Management: Information saved to C:\IPAInspect\ipadirinfo.txt
+02.12.23 13:18:14 - File Management: Copied file to C:\IPAInspect\copied_ipadirinfo.txt
+02.12.23 13:18:14 - File Management: Deleted original file C:\IPAInspect\ipadirinfo.txt
+02.12.23 13:18:14 - File Management: Copied files with extension .txt to C:\IPAFiles
+02.12.23 13:18:14 - File Management: Moved C:\IPAFiles to C:\IPAInspect\MovedFiles
+02.12.23 13:18:14 - File Management: Created archive at C:\IPAInspect\FilesArchive.zip
+02.12.23 13:18:14 - File Management: Extracted archive to C:\IPAInspect\ExtractedFiles
+02.12.23 13:18:14 - User Action: Program stopped

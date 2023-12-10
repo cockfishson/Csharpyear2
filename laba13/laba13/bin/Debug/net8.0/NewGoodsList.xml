@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GoodsList>
+  <Tablet>
+    <Id>4</Id>
+    <Name>Samsung Galaxy Tab S7</Name>
+    <MadeBy>Samsung</MadeBy>
+    <Cost>800</Cost>
+    <Weight>0.5</Weight>
+    <Size>11 inches</Size>
+    <Portable>true</Portable>
+    <ElectricPower>120</ElectricPower>
+    <GPU>Adreno 650</GPU>
+    <CPU>Snapdragon 865+</CPU>
+    <OS>Android</OS>
+    <StorageType>SSD</StorageType>
+    <StorageAmount>128GB</StorageAmount>
+    <ScreenResolution>2560x1600</ScreenResolution>
+    <ScreenType>Super AMOLED</ScreenType>
+    <ChargingPort>USB-C</ChargingPort>
+  </Tablet>
+  <PC>
+    <Id>5</Id>
+    <Name>Random PC</Name>
+    <MadeBy>Fuck if I know</MadeBy>
+    <Cost>1800</Cost>
+    <Weight>472</Weight>
+    <Size>idk</Size>
+    <Portable>true</Portable>
+    <ElectricPower>120</ElectricPower>
+    <GPU>GTX 650</GPU>
+    <CPU>Athlone</CPU>
+    <OS>Linux</OS>
+    <StorageType>SSD</StorageType>
+    <StorageAmount>127839428GB</StorageAmount>
+  </PC>
+</GoodsList>

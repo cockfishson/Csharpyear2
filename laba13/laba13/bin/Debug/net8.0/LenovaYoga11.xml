@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tablet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1</Id>
+  <Name>Lenovo Yoga Tab 11</Name>
+  <MadeBy>Lenovo</MadeBy>
+  <Cost>500</Cost>
+  <Weight>0.5</Weight>
+  <Size>10 inches</Size>
+  <Portable>true</Portable>
+  <ElectricPower>100</ElectricPower>
+  <GPU>Snapdragon lolkek</GPU>
+  <CPU>Snapdragon lolkek</CPU>
+  <OS>Android</OS>
+  <StorageType>SSD</StorageType>
+  <StorageAmount>256GB</StorageAmount>
+  <ScreenResolution>1920x1200</ScreenResolution>
+  <ScreenType>Amoled</ScreenType>
+  <ChargingPort>USB-C</ChargingPort>
+</Tablet>
