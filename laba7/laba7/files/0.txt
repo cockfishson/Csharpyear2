@@ -1,0 +1,2 @@
+Type: Goods, Id: 1, Name: Product 1, MadeBy: Manufacturer 1, Cost: 10, Weight: 0,5, Size: Small
+Type: Goods, Id: 2, Name: Product 2, MadeBy: Manufacturer 2, Cost: 20, Weight: 1, Size: Medium
