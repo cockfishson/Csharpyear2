@@ -1,0 +1,14 @@
+D:\Ne_hihanki\sharp\laba2\laba2\bin\Debug\net6.0\laba2.exe
+D:\Ne_hihanki\sharp\laba2\laba2\bin\Debug\net6.0\laba2.deps.json
+D:\Ne_hihanki\sharp\laba2\laba2\bin\Debug\net6.0\laba2.runtimeconfig.json
+D:\Ne_hihanki\sharp\laba2\laba2\bin\Debug\net6.0\laba2.dll
+D:\Ne_hihanki\sharp\laba2\laba2\bin\Debug\net6.0\laba2.pdb
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.AssemblyInfoInputs.cache
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.AssemblyInfo.cs
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.csproj.CoreCompileInputs.cache
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.dll
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\refint\laba2.dll
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.pdb
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\laba2.genruntimeconfig.cache
+D:\Ne_hihanki\sharp\laba2\laba2\obj\Debug\net6.0\ref\laba2.dll
