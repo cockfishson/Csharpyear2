@@ -1,0 +1,31 @@
+﻿<Window x:Class="wpf10.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf10"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Patient Name:" Grid.Row="0" Margin="5"/>
+        <TextBox x:Name="txtPatientName" Grid.Row="0" Margin="5"/>
+        <TextBlock Text="Appointment Date and Time:" Grid.Row="1" Margin="5"/>
+        <DatePicker x:Name="dpAppointmentDate" Grid.Row="1" Margin="5"/>
+        <TextBlock Text="Doctor ID:" Grid.Row="2" Margin="5"/>
+        <TextBox x:Name="txtDoctorID" Grid.Row="2" Margin="5" IsEnabled="False" Text="{Binding DoctorID}"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="5">
+            <Button Content="Add" Click="Button_Click" Margin="0 0 10 0"/>
+            <Button x:Name="Cancel" Content="Cancel" Click="Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
