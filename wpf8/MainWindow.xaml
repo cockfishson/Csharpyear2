@@ -1,0 +1,68 @@
+﻿<Window x:Class="wpf_laba_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_laba_8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Apartments">
+                <StackPanel>
+                    <Button x:Name="showAll" Content="Show All Info" Click="showAll_Click"></Button>
+                    <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True"/>
+                    <Button x:Name="SaveApartmentsChanges" Content="Save Apartments" Click="SaveApartmentsChanges_Click"></Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Rooms">
+                <StackPanel>
+                <DataGrid x:Name="dataGrid2" AutoGenerateColumns="True"/>
+                <Button x:Name="SaveRoomsChanges" Content="Save Rooms" Click="SaveRoomsChanges_Click"></Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Adress">
+                <StackPanel>
+                <DataGrid x:Name="dataGrid3" AutoGenerateColumns="True"/>
+                <Button x:Name="SaveAddressesChanges" Content="Save Adresses" Click="SaveAddressesChanges_Click"></Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Add Items">
+                <StackPanel>
+                    <ListBox Height="80px" Width="100px" x:Name="listview" SelectionChanged="listview_SelectionChanged">
+                        <ListBoxItem x:Name="Adress" Content="Adress"></ListBoxItem>
+                        <ListBoxItem x:Name="RoomListItem" Content="Room"></ListBoxItem>
+                        <ListBoxItem x:Name="ApartmentListItem" Content="Apartment"></ListBoxItem>
+                    </ListBox>
+                    <StackPanel x:Name="Add_Item">
+                        <Button x:Name="Add_BTN" Content="Add Item" Click="Add_BTN_Click"></Button>
+                        <StackPanel x:Name="Fields">
+                            
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Query Constructo">
+                <StackPanel>
+                    <Label Content="Table"></Label>
+                    <ListView x:Name="tables">
+                        <ListViewItem Content="Room"></ListViewItem>
+                        <ListViewItem Content="Apartment"></ListViewItem>
+                        <ListViewItem Content="Adress"></ListViewItem>
+                    </ListView>
+                    <Label Content="Write down every column you want separated by ','"></Label>
+                    <TextBox x:Name="Columns"></TextBox>
+                    <Label Content="Order by"></Label>
+                    <TextBox x:Name="OrderBy"></TextBox>
+                    <Label Content="Please write down where clause if you need it"></Label>
+                    <TextBox x:Name="WhereBox"></TextBox>
+                    <Button x:Name="QueryCreator" Content="Execute my Query" Click="QueryCreator_Click"></Button>
+                    <StackPanel x:Name="QueryResult">
+                        <DataGrid x:Name="dataGrid4" AutoGenerateColumns="True"/>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
