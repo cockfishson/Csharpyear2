@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="EnterComponentName">Enter component name</system:String>
+    <system:String x:Key="SelectType">Select type</system:String>
+    <system:String x:Key="ShowOnlyAvailable">Show only available items</system:String>
+    <system:String x:Key="EnterMin">Enter MIN</system:String>
+    <system:String x:Key="EnterMax">Enter MAX</system:String>
+    <system:String x:Key="AddNewComponent">Add new component</system:String>
+    <system:String x:Key="Frequency">Frequency (MHz):</system:String>
+    <system:String x:Key="Memory">Memory (GB):</system:String>
+    <system:String x:Key="MemoryType">Memory type:</system:String>
+    <system:String x:Key="Bit">Bit:</system:String>
+    <system:String x:Key="Rating">Rating:</system:String>
+    <system:String x:Key="Amount">Amount:</system:String>
+    <system:String x:Key="Producer">Producer:</system:String>
+    <system:String x:Key="Model">Model:</system:String>
+    <system:String x:Key="Company">Company (AMD/Nvidia):</system:String>
+    <system:String x:Key="Description">Description:</system:String>
+</ResourceDictionary>

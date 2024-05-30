@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="amd_1140_400.jpg" />
+    <None Remove="cart.png" />
+    <None Remove="popa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="amd_1140_400.jpg" />
+    <Resource Include="cart.png" />
+    <Resource Include="popa.png" />
+  </ItemGroup>
+
+</Project>

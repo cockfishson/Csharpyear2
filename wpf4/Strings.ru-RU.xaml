@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="EnterComponentName">Введите название компонента</system:String>
+    <system:String x:Key="SelectType">Выберете тип</system:String>
+    <system:String x:Key="ShowOnlyAvailable">Показывать только имеющиеся товары</system:String>
+    <system:String x:Key="EnterMin">Введите MIN</system:String>
+    <system:String x:Key="EnterMax">Введите MAX</system:String>
+    <system:String x:Key="AddNewComponent">Добавить новый компонент</system:String>
+    <system:String x:Key="Frequency">Частота (МГц):</system:String>
+    <system:String x:Key="Memory">Память (ГБ):</system:String>
+    <system:String x:Key="MemoryType">Тип памяти:</system:String>
+    <system:String x:Key="Bit">Бит:</system:String>
+    <system:String x:Key="Rating">Рейтинг:</system:String>
+    <system:String x:Key="Amount">Количество:</system:String>
+    <system:String x:Key="Producer">Производитель:</system:String>
+    <system:String x:Key="Model">Модель:</system:String>
+    <system:String x:Key="Company">Компания (AMD/Nvidia):</system:String>
+    <system:String x:Key="Description">Описание:</system:String>
+</ResourceDictionary>

@@ -1,0 +1,176 @@
+﻿<Page x:Class="laba4sem2.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:laba4sem2"
+      mc:Ignorable="d" 
+      d:DesignHeight="944" d:DesignWidth="1720"
+      Title="Page2">
+    <Page.Resources>
+        <Style x:Key="RoundCornerButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border x:Name="ButtonBorder"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="10" 
+                                Margin="5">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="Red"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Background="OrangeRed" Width="1720">
+            <StackPanel Orientation="Vertical">
+                <Button Content="Theme1" Click="Button_Click_2" Style="{StaticResource RoundCornerButton}" Margin="5"/>
+                <Button Content="Theme2" Click="Button_Click_2" Style="{StaticResource RoundCornerButton}" Margin="5"/>
+                <Button Content="Theme3" Click="Button_Click_2" Style="{StaticResource RoundCornerButton}" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="450 0 0 0">
+                <TextBlock Text="{DynamicResource EnterComponentName}" Width="200" TextAlignment="Center"></TextBlock>
+                <TextBox Width="200" Name="TBoxSearch" TextChanged="TBoxSearch_TextChanged" Height="20">
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=TBoxSearch, Path=Text.Length}" Value="0">
+                                    <Setter Property="Background" Value="Green"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="{DynamicResource SelectType}" Width="200" TextAlignment="Center"></TextBlock>
+                <ComboBox Width="200" Name="ComboType" SelectionChanged="ComboType_SelectionChanged" ItemsSource="{Binding ModelList}" SelectedIndex="0" Height="20" FontSize="7" Margin="0 5 0 0" ></ComboBox>
+            </StackPanel>
+            <CheckBox x:Name="CheckActual" Checked="CheckActual_Checked" Unchecked="CheckActual_Unchecked" Content="{DynamicResource ShowOnlyAvailable}" HorizontalAlignment="Center" Margin="5 25 5 5"></CheckBox>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="{DynamicResource EnterMin}" Width="100" TextAlignment="Center"></TextBlock>
+                <TextBox Width="100" Name="TBoxMin" TextChanged="TBoxMax_TextChanged" Height="20"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="{DynamicResource EnterMax}" Width="100" TextAlignment="Center"></TextBlock>
+                <TextBox Width="100" Name="TBoxMax" TextChanged="TBoxMax_TextChanged" Height="20"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Button Content="{DynamicResource AddNewComponent}" Click="Button_Click" Width="140">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="ButtonBorder" Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <MultiTrigger>
+                                                <MultiTrigger.Conditions>
+                                                    <Condition Property="IsMouseOver" Value="True"/>
+                                                </MultiTrigger.Conditions>
+                                                <Setter TargetName="ButtonBorder" Property="Background" Value="Red"/>
+                                            </MultiTrigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button Content="Switch Language" Click="Button_Click_1" HorizontalAlignment="Center" Margin="10" Width="140">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Style.Triggers>
+                            <EventTrigger RoutedEvent="Button.Click">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation
+                                        Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"
+                                        To="Blue" Duration="0:0:0.5"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                        </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
+            <StackPanel x:Name="UndoRedo"/>
+            <StackPanel Orientation="Horizontal" x:Name="Laba7"/>
+        </WrapPanel>
+        <ListView Grid.Row="1" Name="LViewParts" HorizontalAlignment="Center" SelectionChanged="LViewParts_SelectionChanged" Background="{DynamicResource BackgroundColor}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Background" Value="{StaticResource SomeStatic}" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="20 20 20 20" Width="400">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"></RowDefinition>
+                            <RowDefinition Height="310"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Width="300" Grid.Row="1" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5" Source="{Binding Img}">
+                        </Image>
+                        <TextBlock Text="{Binding Name}" VerticalAlignment="Center" TextAlignment="Center" Width="390" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="5 5" FontSize="26" Grid.Row="0"></TextBlock>
+                        <TextBlock Text="{Binding Cost, StringFormat='{}{0:C}'}" Grid.Row="2" Margin="5 5 5 15" HorizontalAlignment="Center" FontSize="26" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="{DynamicResource Frequency}" Grid.Row="3" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Frequency}" Grid.Row="3" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Memory}" Grid.Row="4" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Memory}" Grid.Row="4" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource MemoryType}" Grid.Row="5" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding MemoryType}" Grid.Row="5" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Bit}" Grid.Row="6" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Bit}" Grid.Row="6" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Rating}" Grid.Row="7" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Rating}" Grid.Row="7" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Amount}" Grid.Row="8" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Amount}" Grid.Row="8" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Producer}" Grid.Row="9" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Producer}" Grid.Row="9" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Model}" Grid.Row="10" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding Model}" Grid.Row="10" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{DynamicResource Company}" Grid.Row="11" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+                        <TextBlock Text="{Binding CompanyAmdOrIntel}" Grid.Row="11" FontSize="14" HorizontalAlignment="Right" Margin="5 5 5 5"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

@@ -1,0 +1,58 @@
+﻿<Page x:Class="laba4sem2.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:laba4sem2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid>
+        <Grid Margin="20" Width="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="310"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Width="300" Grid.Row="1" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5" Source="{Binding Image}">
+            </Image>
+            <TextBox Text="{Binding EditedName, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="390" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="5 5" FontSize="26" Grid.Row="0"></TextBox>
+            <TextBox Text="{Binding EditedCost, Mode=TwoWay, StringFormat='{}{0:C}'}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="390" Margin="5 5" FontSize="20" Grid.Row="2"></TextBox>
+            <TextBlock Text="{DynamicResource Frequency}" Grid.Row="3" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBox Text="{Binding EditedFrequency, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="3"></TextBox>
+            <TextBlock Text="{DynamicResource Memory}" Grid.Row="4" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource MemoryType}" Grid.Row="5" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Bit}" Grid.Row="6" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Rating}" Grid.Row="7" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Amount}" Grid.Row="8" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Producer}" Grid.Row="9" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Model}" Grid.Row="10" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Company}" Grid.Row="11" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBlock Text="{DynamicResource Description}" Grid.Row="12" FontSize="14" HorizontalAlignment="Left" Margin="5 5 5 5"></TextBlock>
+            <TextBox Text="{Binding EditedMemory, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="4"></TextBox>
+            <TextBox Text="{Binding EditedMemoryType, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="5"></TextBox>
+            <TextBox Text="{Binding EditedBit, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="6"></TextBox>
+            <TextBox Text="{Binding EditedRating, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="7"></TextBox>
+            <TextBox Text="{Binding EditedAmount, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="8"></TextBox>
+            <TextBox Text="{Binding EditedProducer, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="9"></TextBox>
+            <TextBox Text="{Binding EditedModel, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="10"></TextBox>
+            <TextBox Text="{Binding EditedCompanyAmdOrIntel, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="11"></TextBox>
+            <TextBox Text="{Binding EditedDescription, Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" VerticalAlignment="Center" TextAlignment="Center" Width="140" Margin="5 5" FontSize="14" Grid.Row="12"></TextBox>
+            <Button Content="{Binding ButtonText}" Grid.Row="13" Command="{Binding ToggleEditingCommand}" HorizontalAlignment="Left" Margin="88,38,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="exitButton" Content="Bыход" Grid.Row="13" HorizontalAlignment="Right" Margin="88,38,0,0" VerticalAlignment="Top" Click="exitButton_Click"/>
+            <Button x:Name="DeleteButton" Content="Удалить" Grid.Row="13" HorizontalAlignment="Center" Margin="88,38,0,0" VerticalAlignment="Top" Click="DeleteButton_Click"/>
+
+        </Grid>
+    </Grid>
+</Page>

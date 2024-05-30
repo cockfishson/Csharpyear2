@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="laba4sem2.laba611"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:laba4sem2"
+             mc:Ignorable="d" 
+             d:DesignHeight="93.736" d:DesignWidth="174.792"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <Grid>
+        <Label Content="Количество товаров" HorizontalAlignment="Left" Margin="17,28,0,0" VerticalAlignment="Top" Width="141" FontSize="30" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="GoodsAmount" HorizontalAlignment="Left" Margin="27,62,0,0" TextWrapping="Wrap"
+         Text="{Binding quantity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+         VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+    </Grid>
+</UserControl>
